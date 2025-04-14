@@ -42,7 +42,7 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 
 ##  📁 Estructura de carpetas
 
-No todas las carpetas estan presentes en este momento, pero esta es la estructura oficial para este repositorio.
+No todas las carpetas están presentes en este momento, pero esta es la estructura oficial para este repositorio.
 
 - [`transacciones/`](./transacciones) → Registros de gastos e ingresos
 - [`dashboards/`](./dashboards) → Visualizaciones en DataviewJS
