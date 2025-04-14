@@ -22,7 +22,7 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 - Generados con `DataviewJS` y plantillas dinámicas
 
 ### ✅ Integración con Todoist
-- Sincronización automática de mis tareas usando el plugin [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin)
+- Sincronización automática de mis tareas usando el plugin [Todoist Sync](https://github.com/jamiebrynes7/obsidian-todoist-plugin)
 - Consultas personalizadas de tareas por día, proyecto o prioridad
 
 ### 🧩 Plantillas con Templater
@@ -41,6 +41,8 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 ---
 
 ##  📁 Estructura de carpetas
+
+No todas las carpetas estan presentes en este momento, pero esta es la estructura oficial para este repositorio.
 
 - [`transacciones/`](./transacciones) → Registros de gastos e ingresos
 - [`dashboards/`](./dashboards) → Visualizaciones en DataviewJS
