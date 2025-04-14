@@ -9,7 +9,7 @@ Mi sistema está organizado en varias carpetas temáticas que agrupan notas seg�
 - `📚 Notas de clase`: apuntes estructurados por curso o asignatura (ingeniería, programación, optimización, etc.)
 - `💰 Transacciones`: sistema de seguimiento financiero con Dataview y DataviewJS
 - `📊 Dashboards`: visualizaciones de hábitos, finanzas y proyectos
-- `✅ Tareas (Todoist + Obsidian Tasks)`: integración de mi sistema de productividad basado en Todoist con tareas internas gestionadas desde Obsidian
+- `✅ Tareas (integración con Todoist)`: tareas sincronizadas directamente desde Todoist mediante el plugin Todoist Sync
 - `🧩 Templates`: plantillas reutilizables con [Templater](https://github.com/SilentVoid13/Templater)
 - `📅 Diario`: entradas diarias y revisión semanal/mensual
 - `📌 Zettelkasten`: ideas atómicas conectadas (en proceso)
@@ -20,11 +20,11 @@ Mi sistema está organizado en varias carpetas temáticas que agrupan notas seg�
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 - [DataviewJS](https://docs.obsidian.md/Plugins/Dataview/DataviewJS)
 - [Templater](https://github.com/SilentVoid13/Templater)
-- [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin)
 - [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 
-## 🧮 Sistema de Transacciones
+## 💰 Sistema de Transacciones
 
 He implementado un sistema de seguimiento financiero simple que permite:
 
@@ -33,18 +33,13 @@ He implementado un sistema de seguimiento financiero simple que permite:
 - Visualizar totales por semana, mes y categoría
 - Integración con DataviewJS para dashboards financieros
 
-## ✅ Gestión de Tareas (Todoist + Tasks)
+## ✅ Gestión de Tareas con Todoist
 
-Mi sistema de productividad combina:
+Utilizo el plugin [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin) para traer mis tareas activas desde Todoist directamente a Obsidian, permitiéndome:
 
-- [Todoist](https://todoist.com) para tareas de alta prioridad o recurrentes a largo plazo
-- El plugin **Tasks** para registrar, visualizar y filtrar tareas directamente en Obsidian
-- Filtros personalizados para ver:
-  - Tareas vencidas
-  - Tareas activas por proyecto o contexto
-  - Tareas completadas (para retro)
-
-Esta dualidad me permite tener control centralizado tanto desde el calendario como desde el contexto de mis notas.
+- Ver tareas diarias, semanales y futuras desde mis notas
+- Visualizar tareas por proyecto o etiqueta dentro del vault
+- Integrar productividad y notas en un mismo sistema de conocimiento
 
 ## 📊 Dashboards
 
@@ -59,4 +54,3 @@ Uso una combinación de DataviewJS + Templater para mostrar:
 ## 🔒 Privacidad
 
 Algunos datos personales o sensibles han sido omitidos o anonimizados. Este vault está pensado como una demostración del sistema más que como una copia 1:1 de mi entorno privado.
-
