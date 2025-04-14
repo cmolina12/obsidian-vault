@@ -40,7 +40,14 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 
 ---
 
-## 🗂️ Organización general del repositorio (Pendiente)
+##  📁 Estructura de carpetas
+
+- [`transacciones/`](./transacciones) → Registros de gastos e ingresos
+- [`dashboards/`](./dashboards) → Visualizaciones en DataviewJS
+- [`tareas/`](./tareas) → Integración con Todoist
+- [`templates/`](./templates) → Plantillas de uso diario
+- [`clases/`](./clases) → Ejemplos de apuntes de clase
+- [`sistema/`](./sistema) → Documentación del sistema completo
 
 ---
 
