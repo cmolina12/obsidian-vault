@@ -1,19 +1,35 @@
-# 🧠 Obsidian Vault
+# 🧠 Vault remoto en Obsidian
 
-Este repositorio contiene mi vault personal de [Obsidian](https://obsidian.md/), donde organizo mi aprendizaje, finanzas, tareas, proyectos y conocimiento general.
+Este repositorio es una **versión remota y curada** de mi vault personal de [Obsidian](https://obsidian.md/), donde publico únicamente aquellas notas, plantillas, dashboards y estructuras que considero valiosas o interesantes para compartir con otros.
 
-## 🗂️ Estructura del Vault
+> ⚠️ Este no es mi vault completo, sino una muestra pública con ejemplos seleccionados de lo que uso a diario en mi sistema personal.
 
-Mi sistema está organizado en varias carpetas temáticas que agrupan notas según su propósito:
+---
 
-- `📚 Notas de clase`: apuntes estructurados por curso o asignatura (ingeniería, programación, optimización, etc.)
-- `💰 Transacciones`: sistema de seguimiento financiero con Dataview y DataviewJS
-- `📊 Dashboards`: visualizaciones de hábitos, finanzas y proyectos
-- `✅ Tareas (integración con Todoist)`: tareas sincronizadas directamente desde Todoist mediante el plugin Todoist Sync
-- `🧩 Templates`: plantillas reutilizables con [Templater](https://github.com/SilentVoid13/Templater)
-- `📅 Diario`: entradas diarias y revisión semanal/mensual
-- `📌 Zettelkasten`: ideas atómicas conectadas (en proceso)
-- `🔧 Scripts y automatizaciones`: pequeños scripts para acelerar el trabajo dentro del vault
+## 🌐 ¿Qué puedes encontrar aquí?
+
+### 📚 Notas de clase
+- Apuntes seleccionados por curso o tema (ingeniería, optimización, programación, etc.)
+- Organizados por carpetas temáticas
+
+### 💰 Sistema de transacciones
+- Registro manual de ingresos y gastos
+- Automatización de visualizaciones por semana, categoría y cuenta
+- Construido usando `Dataview` + `DataviewJS`
+
+### 📊 Dashboards interactivos
+- Visualización de hábitos, tareas, progreso académico y financiero
+- Generados con `DataviewJS` y plantillas dinámicas
+
+### ✅ Integración con Todoist
+- Sincronización automática de mis tareas usando el plugin [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin)
+- Consultas personalizadas de tareas por día, proyecto o prioridad
+
+### 🧩 Plantillas con Templater
+- Templates para transacciones, notas de clase, revisión diaria/semanal
+- Automatización de estructuras y relleno dinámico
+
+---
 
 ## 🧰 Plugins clave utilizados
 
@@ -21,36 +37,25 @@ Mi sistema está organizado en varias carpetas temáticas que agrupan notas seg�
 - [DataviewJS](https://docs.obsidian.md/Plugins/Dataview/DataviewJS)
 - [Templater](https://github.com/SilentVoid13/Templater)
 - [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin)
-- [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
-- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
+- [Obsidian Git](https://github.com/denolehov/obsidian-git) ← **Este repositorio es gestionado automáticamente desde Obsidian gracias a este plugin**
 
-## 💰 Sistema de Transacciones
+---
 
-He implementado un sistema de seguimiento financiero simple que permite:
+## 🗂️ Organización general del repositorio (Pendiente)
 
-- Registrar ingresos y gastos
-- Categorizar automáticamente
-- Visualizar totales por semana, mes y categoría
-- Integración con DataviewJS para dashboards financieros
+---
 
-## ✅ Gestión de Tareas con Todoist
+## 🔒 Privacidad y enfoque
 
-Utilizo el plugin [Todoist Sync](https://github.com/hipstersmoothie/obsidian-todoist-plugin) para traer mis tareas activas desde Todoist directamente a Obsidian, permitiéndome:
+Este repositorio está pensado como una **demostración abierta** de cómo gestiono mi conocimiento, mis tareas y mi información en Obsidian. No contiene datos personales ni notas completas; solo extractos, ejemplos y componentes clave.
 
-- Ver tareas diarias, semanales y futuras desde mis notas
-- Visualizar tareas por proyecto o etiqueta dentro del vault
-- Integrar productividad y notas en un mismo sistema de conocimiento
+---
 
-## 📊 Dashboards
+## 🚀 ¿Por qué lo comparto?
 
-Uso una combinación de DataviewJS + Templater para mostrar:
+Para mostrar mi sistema de _note-taking_ y cómo automatizo ciertas tareas de mi vida integrándolas dentro de la plataforma Obsidian mediante programación, visualizaciones y plugins personalizados.
 
-- Gastos por semana y categoría
-- Resumen de hábitos
-- Actividad diaria y progreso de proyectos
-- Balance actual por cuenta
-- Avance de tareas y proyectos clave
+> Todo este contenido es gestionado desde Obsidian y sincronizado automáticamente a este repositorio usando el plugin **Obsidian Git**.
 
-## 🔒 Privacidad
 
-Algunos datos personales o sensibles han sido omitidos o anonimizados. Este vault está pensado como una demostración del sistema más que como una copia 1:1 de mi entorno privado.
+
