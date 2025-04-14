@@ -55,7 +55,7 @@ $F(Q^*) = \frac{c_u}{c_o + c_u} = \frac{v - c}{v - r}$
 
 ## Fórmula de la demanda esperada
 
-$$E[Ventas] = \begin{cases} Q - E[Sobrantes] \\ E[Demanda] - E[Faltantes] \end{cases}$$
+$$E[Ventas] = \begin{cases} Q - E[Sobrantes] \\[6pt] E[Demanda] - E[Faltantes] \end{cases}$$
 
 **¿Qué sucedería si lo que me sobra en inventario al final del día lo puedo utilizar para satisfacer la demanda del día siguiente?**
 
