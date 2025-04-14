@@ -601,5 +601,5 @@ $$4^{k+1}+5^{2k-1}$$
 Entonces, podemos escribir:
 $$4^{k+1}+5^{2k-1}=21m \text{ para algun }m$$
 Multiplicamos la primera parte por 4 y la segunda parte por 25:
-$$$$
+
 
