@@ -9,7 +9,7 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 ## 🌐 ¿Qué puedes encontrar aquí?
 
 ### 📚 Notas de clase
-- Apuntes seleccionados por curso o tema (ingeniería, optimización, programación, etc.)
+- Apuntes seleccionados por curso o tema
 - Organizados por carpetas temáticas
 
 ### 💰 Sistema de transacciones
