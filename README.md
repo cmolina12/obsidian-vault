@@ -36,7 +36,7 @@ Este repositorio es una **versión remota y curada** de mi vault personal de [Ob
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 - [Templater](https://github.com/SilentVoid13/Templater)
 - [Todoist Sync](https://github.com/jamiebrynes7/obsidian-todoist-plugin)
-- [Obsidian Git](https://github.com/denolehov/obsidian-git) ← **Este repositorio es gestionado automáticamente desde Obsidian gracias a este plugin**
+- [Obsidian Git](https://github.com/denolehov/obsidian-git) 
 
 ---
 
