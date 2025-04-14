@@ -1,4 +1,4 @@
-# 🧠 Obsidian Vault de Camilo
+# 🧠 Obsidian Vault
 
 Este repositorio contiene mi vault personal de [Obsidian](https://obsidian.md/), donde organizo mi aprendizaje, finanzas, tareas, proyectos y conocimiento general.
 
