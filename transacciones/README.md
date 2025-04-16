@@ -101,12 +101,19 @@ Esto produce una tabla como:
 | comida     | -92,000 |
 | transporte | -48,000 |
 | servicios  | -85,000 |
-## Capturas de pantalla
-![[3.png]]
+## 📷 Ejemplos visuales del sistema
 
-![[2.png]]
+A continuación se muestran algunos ejemplos de cómo se visualizan las transacciones dentro del vault:
 
-![[1.png]]
+### 🧾 Visualización 1
+![Visualización 1](./attachments/1.png)
+
+### 🧾 Visualización 2
+![Visualización 2](./attachments/2.png)
+
+### 🧾 Visualización 3
+![Visualización 3](./attachments/3.png)
+
 
 ---
 
