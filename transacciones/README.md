@@ -103,7 +103,9 @@ Esto produce una tabla como:
 | servicios  | -85,000 |
 ## Capturas de pantalla
 ![[Captura de pantalla 2025-04-16 a la(s) 1.22.35 a.m..png]]
+
 ![[Captura de pantalla 2025-04-16 a la(s) 1.23.58 a.m..png]]
+
 ![[Captura de pantalla 2025-04-16 a la(s) 1.24.28 a.m..png]]
 
 ---
