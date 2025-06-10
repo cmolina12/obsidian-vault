@@ -3,7 +3,7 @@
 - **Unificación a las unidades de la media:** Si la media $\mu$ está en unidades *x*, todo debe expresarse en esa misma unidad → convertir $T$ y $\tau$ a la unidad de la media: si $\mu$ es mensual y $\tau = 5$ días, entonces $\tau = \frac{5}{30}$ meses → si $\mu$ es anual y $T = 15$ días, entonces $T = \frac{15}{360}$ años → luego: $\mu_{T} = \mu \cdot T$, $\mu_{\tau} = \mu \cdot \tau$, $\mu_{T+\tau} = \mu \cdot (T + \tau)$ → para la desviación: $\sigma_{T} = \sigma \cdot \sqrt{T}$, $\sigma_{\tau} = \sigma \cdot \sqrt{\tau}$, $\sigma_{T+\tau} = \sigma \cdot \sqrt{T + \tau}$ 
 - **Conversión de tasas (i) simples:** $i_{\text{mes}} = \frac{i_{\text{año}}}{12}$, $i_{\text{día}} = \frac{i_{\text{año}}}{360}$ → para convertir al revés: $i_{\text{año}} = i_{\text{mes}} \cdot 12$ o $i_{\text{año}} = i_{\text{día}} \cdot 360$ → usar siempre la unidad de tiempo que corresponde con la media.
 - **Si te dan la varianza en lugar de la desviación:** La varianza es $\sigma^2$, debes obtener la desviación estándar como $\sigma = \sqrt{\text{Varianza}}$ → luego puedes usarla como siempre: $\sigma_{T} = \sigma \cdot \sqrt{T}$, $\sigma_{T+\tau} = \sigma \cdot \sqrt{T + \tau}$ → si necesitas convertir primero el tiempo, asegúrate de que esté en la unidad de la media antes de aplicar la raíz.
-- **Si la demanda depende de una variable aleatoria \( X \) como \( D = aX + b \):** calcular media como $\mu_D = a \cdot \mu_X + b$ y desviación como $\sigma_D = a \cdot \sigma_X$ → si te dan varianza: primero obtener $\sigma_X = \sqrt{\text{Var}(X)}$ → aplicar esto antes de cualquier cálculo de $F(Q)$, $Q$, $L(z)$, etc.
+- **Si la demanda depende de una variable aleatoria (X) como ( D = aX + b ):** calcular media como $\mu_D = a \cdot \mu_X + b$ y desviación como $\sigma_D = a \cdot \sigma_X$ → si te dan varianza: primero obtener $\sigma_X = \sqrt{\text{Var}(X)}$ → aplicar esto antes de cualquier cálculo de $F(Q)$, $Q$, $L(z)$, etc.
 
 
 ***Vendedor de diarios*** 
@@ -70,7 +70,9 @@ Con esa información puedo de una sacar Z, R y SS. **Si nos dicen que Q es EOQ:*
 ![[Captura de pantalla 2025-04-24 a la(s) 7.53.33 p.m..png|500]]
 <mark style="background: #ADCCFFA6;">Backorders (Iterativo)</mark>
 Un "backorder" (o pedido pendiente) es un pedido que se realiza para un producto que no está disponible en stock en el momento de la compra, pero se espera que esté disponible en un futuro cercano.
-**Paso 0)** Sacar la media y la desviación **Paso 1)** Encontrar $\tau$, K, i, c, h, p, $\mu_{\tau}$ y $\sigma_{\tau}$ **Paso 3**: $F(R)=1-\frac{Q*h}{p*\lambda}=\text{Tipo 1}$, z=`INV.NORM.ESTAND(F(R))`, $R=\mu_{\tau}+\sigma_{\tau}*Z$, L(z) = Formula general, $n(R)=\sigma_{\tau}*L(z)$, **SIGUIENTE ITERACION**, $Q=\sqrt{ \frac{2*\lambda*(K+p*n(R\text{ anterior}))}{h} }$
+**Paso 0)** Sacar la media y la desviación **Paso 1)** Encontrar $\tau$, K, i, c, h, p, $\mu_{\tau}$ y $\sigma_{\tau}$ **Paso 3**: $F(R)=1-\frac{Q*h}{p*\lambda}=\text{Tipo 1}$, z=`INV.NORM.ESTAND(F(R))`, $R=\mu_{\tau}+\sigma_{\tau}*Z$, L(z) = Formula general, $n(R)=\sigma_{\tau}*L(z)$, **SIGUIENTE ITERACION**, 
+
+$$Q=\sqrt{ \frac{2*\lambda*(K+p*n(R\text{ anterior}))}{h} }$$
 
 ![[Captura de pantalla 2025-04-24 a la(s) 7.45.15 p.m..png|300]]
 **Paso 4:** Corremos las iteraciones hasta que converga, o ya no cambien los valores. La iteración donde esto empieza a verse es la optima. Ahora sacamos **Q de la iteracion**, **Tipo 1 = F(R) de la iteracion**, **Tipo 2 = $1-\frac{n(R)}{Q}$**, **n(R) de la iteracion**, **R de la iteracion**, $SS=\sigma_{\tau}*Z$, y **I = Formula inventarios**
