@@ -19,8 +19,8 @@
 
 <mark style="background: #FF5582A6;">Continuo - Uniforme:</mark> 
 **Paso 1:** Mirar el **a** y **b** que me dan **Paso 2:** Sacar **F(Q)** con formula general y $Q=(F(Q)(b-a))+a$ **Paso 3:** Sacar **E(Sobrantes)** $=\frac{(Q-a)^2}{2(b-a)}$ y **E(Faltantes)** $=\frac{(b-Q)^2}{2(b-a)}$  **Paso 4:** Sacar **E(Demanda)** $=\frac{a+b}{2}$ y **Servicio Tipo II** con $1-\frac{E(\text{Faltante})}{\text{E(Demanda)}}$ **Paso 5:** Costo sobrantes y faltantes con formula general. **Nota:** La formula de E(Sobrantes) y E(Faltantes) **solo** aplica si Q esta entre a y b. Si no, se calcula asi:
-$$
 
+$$
 \text{Si } Q > b: 
 \quad 
 \begin{cases}
@@ -34,7 +34,6 @@ E(\text{Faltantes}) = 0
 E(\text{Sobrantes}) = 0 \\
 E(\text{Faltantes}) = a
 \end{cases}
-
 $$
 
 <mark style="background: #BBFABBA6;">Discreto - Frecuencia:</mark>
