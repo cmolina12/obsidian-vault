@@ -106,13 +106,13 @@ Esto produce una tabla como:
 A continuación se muestran algunos ejemplos de cómo se visualizan las transacciones dentro del vault:
 
 ### 🧾 Visualización 1
-![Visualización 1](attachments/1.png)
+![Visualización 1](1.png)
 
 ### 🧾 Visualización 2
-![Visualización 2](attachments/2.png)
+![Visualización 2](2.png)
 
 ### 🧾 Visualización 3
-![Visualización 3](attachments/3.png)
+![Visualización 3](3.png)
 
 
 ---
